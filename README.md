@@ -3,7 +3,7 @@ CSE1500: Web and Database Technology <!-- omit in toc -->
 
 [![Build Status](https://travis-ci.org/chauff/Web-Teaching.svg?branch=master)](https://travis-ci.org/chauff/Web-Teaching)
 
-The **Web technology materials and resources** of the 2018/19 [Web and Database Technology course](http://studiegids.tudelft.nl/a101_displayCourse.do?course_id=48438) at TU Delft are listed here.
+The **Web technology materials and resources** of the 2018/19 [Web and Database Technology course](http://studiegids.tudelft.nl/a101_displayCourse.do?course_id=48438) at TU Delft are listed here. We expect 900 students in the course; the course setup reflects that.
 
 The database materials are not included here!
 
@@ -18,6 +18,9 @@ The database materials are not included here!
 - [Sample exams](#sample-exams)
 - [Assignments](#assignments)
 - [Demo application](#demo-application)
+- [Werkcolleges](#werkcolleges)
+- [Shared labs](#shared-labs)
+- [Office hours](#office-hours)
 - [Interactive web technology exercises](#interactive-web-technology-exercises)
 - [Twitter accounts to follow](#twitter-accounts-to-follow)
 - [Web development resources](#web-development-resources)
@@ -34,7 +37,7 @@ The database materials are not included here!
 
 ## Contact
 
-The responsible instructors (A. Bozzon, C. Hauff) can be reached at `cse1500-ewi[at]tudelft.nl`. *Warning: the mailbox will note be active before November 2018.*
+The responsible instructors (Associate Professors [Claudia Hauff](https://chauff.github.io/) and [Alessandro Bozzon](http://www.wis.ewi.tudelft.nl/bozzon/)) can be reached at `cse1500-ewi[at]tudelft.nl`.
 
 ## Web technology course book 
 
@@ -46,7 +49,7 @@ The course book for the web technology part is [**Learning Web App Development**
 
 ### Recommended
 
-[Visual Studio Code](https://code.visualstudio.com/) is the strongly recommended development environment for this course. It is a free and open-source IDE available for all major operating systems. It was originally designed to support Node.js programmers (a server-­side JavaScript framework we use in this class), but now has extensions for many programming languages. Best of all, **Visual Studio Code itself is written in JavaScript**! It has [integrated source control](https://code.visualstudio.com/docs/editor/versioncontrol) with `git` support out of the box - making it easy to program in pairs. It als has a *Live Share* extension, which allows you to code in pairs without the need for tools like `git`. 
+[Visual Studio Code](https://code.visualstudio.com/) is the strongly recommended development environment for this course. It is a free and open-source IDE available for all major operating systems. It was originally designed to support Node.js programmers (a server-­side JavaScript framework we use in this class), but now has extensions for many programming languages. Best of all, **Visual Studio Code itself is written in JavaScript**! It has [integrated source control](https://code.visualstudio.com/docs/editor/versioncontrol) with `git` support out of the box - making it easy to program in pairs. It als has a *Live Share* extension, which allows you to code in pairs without the need for tools like `git`.
 
 ![Visual Studio Code](img/RME-vsc.png)
 
@@ -85,16 +88,18 @@ We have two assessment moments: one for the Web technology assignments and one f
 
 ## Course topics
 
-- Week 2.1: (Lecture L1) HTTP and (L2) HTML5
-- Week 2.2: (L3) JavaScript and (L4) Node.js
-- Week 2.3: (L5) CSS and (L6) Node.js (advanced topics)
-- Week 2.4: (L7) Cookies & sessions and (L8) web security
-- Week 2.5: DB topics; **midterm on December 13** (*the midterm only covers web technology topics*)
-- Week 2.6: DB topics
-- Week 2.7: DB topics
-- Week 2.8: DB topics
-- Week 2.9: DB topics
-- Week 2.10: _no lectures_ this week; **final exam on February 1** (*the final exam only covers DB topics*)
+| Week | Monday                    | Thursday                | Friday     |
+|------|---------------------------|-------------------------|------------|
+| 2.1  | HTTP                      | HTML5                   | ---        |
+| 2.2  | JavaScript                | Node.js                 | ---        |
+| 2.3  | CSS                       | Node.js (advanced)      | ---        |
+| 2.4  | Cookies and sessions      | Web security            | ---        |
+| 2.5  | ---                       | **Midterm exam**                 | ---        |
+| 2.6  | Introduction to databases | Data models             | ---        |
+| 2.7  | RDBMS: SQL DML 1          | RDBMS: SQL DML 2        | ---        |
+| 2.8  | RDBMS: SQL DDL            | NoSQL: key-value stores | ---        |
+| 2.9  | NoSQL: document stores    | NoSQL: graph stores     | ---        |
+| 2.10 | ---                       | ---                     | **Final exam** |
 
 ## Sample exams
 
@@ -111,11 +116,15 @@ Exam topics are all topics covered in the lectures and the required readings. Co
 
 There are six assignments in total.
 
+Assignments are worked on in **teams of 2 students**. *We do not allow larger teams; we do not allow teams of 1*.
+
 The first three assignments cover web technology topics.
 
 - [Assignment 1 (web)](Assignment-1.md)
 - [Assignment 2 (web)](Assignment-2.md)
 - [Assignment 3 (web)](Assignment-3.md)
+
+**Assessment**: the three web assignments are assessed in a **single** interview session with a TA; the interview will last 20-30 minutes. Each of the three assignments can be passed or failed (binary judgment, there are no grade levels) on an individual basis. The team can choose an assessment timeslot during the shared lab sessions starting in week 2.3. The last week for getting assessed on the web assignments is week 2.6.
 
 ## Demo application
 
@@ -128,6 +137,28 @@ The demo app, just as listed in this year's board game project, consists of two 
 and a game screen:
 
 <img src="https://raw.githubusercontent.com/chauff/Web-Teaching/master/img/A3-game-CSS-completed.png" alt="splash screen" width="600px">
+
+## Werkcolleges
+
+We also offer **5** optional werkcolleges (instruction lessons) that are intended for students **without prior programming experience** - 3 covering web topics and 2 covering database topics. Each lesson will demonstrate basic concepts through a set of short interactive exercises. These lessons are meant to reinforce lecture content, they do not introduce novel concepts.
+
+The werkcolleges are given by [Assistant Prof. Julian Urbano](https://julian-urbano.info/) and Frank Mulder (teaching team CS). The following topics are covered:
+
+- Week 2.3: JavaScript
+- Week 2.4: Web application development in Node.js/Express
+- Week 2.5: Sample web technology exam questions
+- Week 2.7: Querying in SQL
+- Week 2.8: *to be determined*
+
+Check your timetables for the concrete times! While each lecture is only given once (in the auditorium), each werkcollege is given three times a week - once for each of the three clusters. Check your timetable for your cluster's timeslot!
+
+## Shared labs
+
+Starting in week 2.1, there will be shared labs - similar to the setup of Q1. As all three web assignments have already been released, you can start working on them immediately.
+
+## Office hours
+
+For the web technology part, there will be **two** office hours per week (starting in week 2.1, ending in week 2.5): on **Mondays** and **Thursdays**, Claudia Hauff will be at the shared lab for the first hour (13:45-14:45).
 
 ## Interactive web technology exercises
 
@@ -170,9 +201,11 @@ For each lecture we provide a range of materials:
 - **Recommended readings**: these may be tweets, blog posts or book chapters that help you understand some of the introduced concepts better; again, do not attempt to read all of the materials.
 - **Relevant scientific publications**: we are often asked why this kind of course is part of the computer science curriculum. Isn't this "just" programming? To showcase how web technologies are researched, we here list a number of scientific publications that contribute to our understanding of (the use of) web technologies.
 
+*If you are interested in knowing what other universities teach in terms of web technologies, take a look at [this list of courses with a web focus](university-web-tech-courses.md).*
+
 ## Web lectures
 
-**Status update**: transcripts of Lectures 1 to 8 are online. The lecture slides are from the 2017/18 edition and will be updated in the coming month.
+**Status update**: transcripts of Lectures 1 to 8 are online. The lecture slides are from the 2017/18 edition and will be updated in the following weeks.
 
 ### Lecture 1
 
@@ -201,7 +234,7 @@ This lecture covers web design and HTML5 ([2018/19 transcript](Lecture-2.md), [2
   - :warning: Chapter 2 of the [web course book](http://shop.oreilly.com/product/0636920030621.do).
   - :warning: [Introduction to HTML forms](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form) (ignore the section on *Basic form styling*, we will cover CSS in a later lecture) and [Sending form data](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Sending_and_retrieving_form_data) (up to and including the section on *Viewing HTTP requests*).
 - Recommended activity:
-  - :headphones: Listen to [this podcast](http://talkingcode.com/podcast/episode-11-tom-dale/) on modern web applications and the move from web sites to web apps and an almost *native* experience.
+  - :headphones: Listen to [this podcast with Tom Dale](http://talkingcode.com/podcast/episode-11-tom-dale/) discussing modern web applications and the move from web sites to web apps and an almost *native* experience.
 - Recommended readings:
   - :closed_book: Chapter 3 of the [Definite Guide to HTML5](https://www.apress.com/gp/book/9781430239604).
   - [Web Fundamentals by Google](https://developers.google.com/web/fundamentals/).
@@ -218,7 +251,7 @@ This lecture covers client-side JavaScript ([2018/19 transcript](Lecture-3.md), 
   - :warning: Chapter 4 of the [web course book](http://shop.oreilly.com/product/0636920030621.do).
 - Recommended activities:
   - [Interactive exercises for Lecture 3](nodeschool-exercises.md).
-  - :headphones: Listen to this podcast on [debugging](https://syntax.fm/show/047/how-to-get-better-at-debugging).
+  - :headphones: Listen to [this podcast by Wes Bos and Scott Tolinski](https://syntax.fm/show/047/how-to-get-better-at-debugging) on debugging.
   - [JavaScript30](https://javascript30.com/): 30 day vanilla JS coding challenges
 - Recommended readings:
   - :closed_book: [Learning JavaScript design patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/), in particular the sections on the [constructor pattern](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#constructorpatternjavascript) and the [module pattern](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript).
@@ -257,8 +290,9 @@ This lecture covers CSS ([2018/19 transcript](Lecture-5.md), [2017/18 slides](ht
 - Required readings:
   - :warning: Chapter 3 of the [web course book](http://shop.oreilly.com/product/0636920030621.do).
 - Recommended activities:
-  - :tv: Watch [this YouTube video from CSSConf](https://www.youtube.com/watch?v=cYGOv2ToZjY) covering the long (and painful) history of CSS.
-  - :headphones: Listen to [this podcast](https://syntax.fm/show/021/what-s-new-in-css-variables-scoping-new-selectors-and-color-functions) on the present and future of CSS.
+  - :tv: Watch [this talk by Rachel Andrew](https://www.youtube.com/watch?v=cYGOv2ToZjY) to learn more about the long (and painful) history of CSS.
+  - :tv: Watch [this talk by Mandy Michael](https://youtu.be/5qgUC_z8syw) on text effects in CSS. Data attributes and pseudo-elements are a powerful combination!
+  - :headphones: Listen to [this podcast by Wes Bos and Scott Tolinski](https://syntax.fm/show/021/what-s-new-in-css-variables-scoping-new-selectors-and-color-functions) on the present and future of CSS.
 - Recommended readings:
   - :closed_book: Chapters 1-4 and chapter 13 of [The Book of CSS3: A developer's guide to the future of web design](https://nostarch.com/css3_2e) by Peter Gasston (2nd edition, 2014).
   - To make sense of CSS positioning, take a look [here](https://alistapart.com/article/css-positioning-101).
